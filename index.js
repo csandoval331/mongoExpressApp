@@ -15,7 +15,6 @@ database.once('connected', () => {
 })
 
 
-
 const app = express()
 
 // - express.json() and express.urlencoded() are middlewares (methods/functions/operation) that are called

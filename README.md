@@ -17,9 +17,18 @@
                     than how to do it. kinda like db.client.findall()
 
 # curl commands for testing webapp
-    curl --header "Content-Type: application/json"   
-    --request POST   
-    --data '{"username":"xyz","password":"xyz"}'   http://10.0.0.55:3000/api/post
+## will post {name, age} to DB
+    curl --header "Content-Type: application/json" --request POST --data '{"name":"Carlos","age":"80"}' http://10.0.0.55:3000/api/post
+## will get all name and age from DB   
+    curl http://10.0.0.55:3000/api/getall
+## will get name-age from db using ID
+    curl http://10.0.0.55:3000/api/getOne/6628365c9c80f8cbac282d97
+## Patch by id
+    curl --header "Content-Type: application/json" --request PATCH --data '{"name":"Carlos","age":"80"}' http://10.0.0.55:3000/api/update/6628365c9c80f8cbac282d97
+
+    curl -X PATCH -H "Content-Type: application/json" -d '{"name": "Carlos331", "age": "10"}' http://10.0.0.55:3000/api/update/6628365c9c80f8cbac282d97
+
+
                 
         
             

@@ -15,6 +15,11 @@
             - use declarative formats to make easier to understand 
                 - Declarative programming: programming paradigm that empahsises what a program should do rather 
                     than how to do it. kinda like db.client.findall()
+
+# curl commands for testing webapp
+    curl --header "Content-Type: application/json"   
+    --request POST   
+    --data '{"username":"xyz","password":"xyz"}'   http://10.0.0.55:3000/api/post
                 
         
             

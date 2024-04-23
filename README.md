@@ -28,13 +28,16 @@
 
     curl -X PATCH -H "Content-Type: application/json" -d '{"name": "Carlos331", "age": "10"}' http://10.0.0.55:3000/api/update/6628365c9c80f8cbac282d97
 
+## delete by ID
+    curl -X DELETE http://10.0.0.55:3000/api/delete/6628375729ed830c6950ff52
+
 
                 
         
             
 
 
-
-### This is me following along nishant-666 (link below). I will be adding on more to this project. Maybe a front-end and more data.
-### Here is nishants-666 github link https://github.com/nishant-666/Rest-Api-Express-MongoDB/tree/master
-### Link to freecodecamp.com site: https://www.freecodecamp.org/news/build-a-restful-api-using-node-express-and-mongodb
+# Links
+- This is me following along nishant-666 (link below). I will be adding on more to this project. Maybe a front-end and more data.
+- Here is nishants-666 github link https://github.com/nishant-666/Rest-Api-Express-MongoDB/tree/master
+- Link to freecodecamp.com site: https://www.freecodecamp.org/news/build-a-restful-api-using-node-express-and-mongodb

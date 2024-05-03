@@ -19,6 +19,8 @@
 # curl commands for testing webapp
 ## will post {name, age} to DB
     curl --header "Content-Type: application/json" --request POST --data '{"name":"Carlos","age":"80"}' http://10.0.0.55:3000/api/post
+
+    curl -X POST -H "Content-Type: application/json" -d '{"name": "Carlos", "age": "80"}' http://10.0.0.55:3000/api/post
 ## will get all name and age from DB   
     curl http://10.0.0.55:3000/api/getall
 ## will get name-age from db using ID
@@ -41,3 +43,4 @@
 - This is me following along nishant-666 (link below). I will be adding on more to this project. Maybe a front-end and more data.
 - Here is nishants-666 github link https://github.com/nishant-666/Rest-Api-Express-MongoDB/tree/master
 - Link to freecodecamp.com site: https://www.freecodecamp.org/news/build-a-restful-api-using-node-express-and-mongodb
+- Link to mongoose-express article: https://www.mongodb.com/developer/languages/javascript/getting-started-with-mongodb-and-mongoose/

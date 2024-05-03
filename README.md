@@ -53,10 +53,10 @@
 # explaining the difference between the middlewares express.urlencoded() and express.json()
 
 [ understanding app.use(express.urlencoded() ) vs express.json() ](https://stackoverflow.com/questions/23259168/what-are-express-json-and-express-urlencoded)
-    - express.urlencoded()
-        > expects data in string format .../Name=Pikachu&Type=Banana&Number+In+Stable=12
-    - express.json()
-        > expects data in JSON format {"name": "Carlos", "age": "100"}
+- express.urlencoded()
+    > expects data in string format .../Name=Pikachu&Type=Banana&Number+In+Stable=12
+- express.json()
+    > expects data in JSON format {"name": "Carlos", "age": "100"}
 
 # Links
 - This is me following along nishant-666 (link below). I will be adding on more to this project. Maybe a front-end and more data.

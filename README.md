@@ -47,7 +47,10 @@
     Map  
 
 ## mongoose quirks, hahaa
-        I noticed that my Schema in mongoDB was changed to "datas", even though it was named "Data" in ./model/model.js . I was really confused, but apparently, mongoose will turn your schema name into lower case and make it plural. Ha!
+        I noticed that my Schema in mongoDB was changed 
+        to "datas", even though it was named "Data" in ./model/model.js .
+        I was really confused, but apparently, mongoose will turn your 
+        schema name into lower case and make it plural. Ha!
     [link to section that states this](https://www.mongodb.com/developer/languages/javascript/getting-started-with-mongodb-and-mongoose/#:~:text=an%20important%20note%3A%20the%20first%20argument%20passed%20to%20the%20model%20should%20be%20the%20singular%20form%20of%20your%20collection%20name.%20mongoose%20automatically%20changes%20this%20to%20the%20plural%20form%2C%20transforms%20it%20to%20lowercase%2C%20and%20uses%20that%20for%20the%20database%20collection%20name.)
 
 # Explaining the difference between the middlewares express.urlencoded() and express.json()

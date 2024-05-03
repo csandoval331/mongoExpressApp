@@ -34,9 +34,17 @@
     curl -X DELETE http://10.0.0.55:3000/api/delete/6628375729ed830c6950ff52
 
 
-                
-        
-            
+# Mongoose Schemasa allowed data types:
+    String
+    Number
+    Date
+    Buffer
+    Boolean
+    Mixed
+    ObjectId
+    Array
+    Decimal128
+    Map        
 
 
 # Links

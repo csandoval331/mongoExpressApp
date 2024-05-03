@@ -44,7 +44,10 @@
     ObjectId
     Array
     Decimal128
-    Map        
+    Map  
+
+# mongoose quirks, hahaa
+    I noticed that my Schema in mongoDB was changed to "datas", even though it was named "Data" in ./model/model.js . I was really confused, but apparently, mongoose will turn your schema name into lower case and make it plural. Ha!
 
 
 # Links

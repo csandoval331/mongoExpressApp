@@ -1,4 +1,4 @@
-# mongoexpress app - Personal Notes
+# Mongo-Express app - Personal Notes
 ## project dependencies
 ### Express - middleware for creating CRUD endpoints
     - allows for endpoints such as mysite.exa/api/getAllUsers

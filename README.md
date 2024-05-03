@@ -63,5 +63,5 @@
 # Links
 - This is me following along nishant-666 (link below). I will be adding on more to this project. Maybe a front-end and more data.
 - Here is nishants-666 github link https://github.com/nishant-666/Rest-Api-Express-MongoDB/tree/master
-- Link to nishants-666 freecodecamp website: freecodecamp.com site: https://www.freecodecamp.org/news/build-a-restful-api-using-node-express-and-mongodb
+- Link to nishants-666 freecodecamp article: https://www.freecodecamp.org/news/build-a-restful-api-using-node-express-and-mongodb
 - Link to mongoose-express article: https://www.mongodb.com/developer/languages/javascript/getting-started-with-mongodb-and-mongoose/
